@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.phone {
+    width: 315px;
+    height: 550px;
+    margin: 20px auto;
+    background-color: #efefef;
+    overflow: auto;
+}
+.top {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    background-color: #dcdcdc;
+    text-align: center;
+    color: rgba(0, 0, 0,0.5);
+}
+.top i:nth-child(1) {
+    margin: 2px 15px;
+    float: left;
+}
+.top i:nth-child(3) {
+    margin: 2px 15px;
+    float: right;
+}
+.top span {
+    font-size: 15px;  
+}
+.car_img {
+    position: relative;
+    cursor: pointer;
+}
+.car_img div:nth-child(1) {
+    height: 130px;
+    width: 100%;
+    margin-top: 20px;
+    background: url(../img/3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.car_img div:nth-child(2) {
+    width: 315px;
+    height: 25px;
+    background-color: rgba(0, 0, 0,0.1);
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgba(255, 255, 255,0.8);
+    padding-left: 15px;
+}
+.main {
+    margin-bottom: 30px;
+}
+.main img {
+    width: 40px;
+    height: 40px;
+    margin: 15px 20px;
+}
+.main > div {
+    width: 80px;
+    height: 100px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main > div > div  {
+    height: 70px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.main span,
+.copyright span,
+.phone p {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    margin: 5px 10px;
+}
+.main > div:nth-child(1) > div  {
+    background-color: #36a1db;
+}
+.main > div:nth-child(2) > div  {
+    background-color: #678ce1;
+}
+.main > div:nth-child(3) > div  {
+    background-color: #8c67df;
+}
+.main > div:nth-child(4) > div  {
+    background-color: #84d018;
+}
+.main > div:nth-child(5) > div  {
+    background-color: #14c760;
+}
+.main > div:nth-child(6) > div  {
+    background-color: #f3b613;
+}
+.main > div:nth-child(7) > div  {
+    background-color: #ff8a4a;
+}
+.main > div:nth-child(8) > div  {
+    background-color: #fc5366;
+}
+.main > div:nth-child(9) > div  {
+    background-color: #36a1db;
+}
+.copyright {
+    clear: both;
+    width: 100%;
+    height: 130px;
+}
+.copyright span {
+    margin: 30px 25px;
+}
+.copyright p {
+    margin: 5px 65px;
+}
+.foot {
+    width: 300px;
+    height: 30px;
+    position: fixed;
+    top: 540px;
+    background-color: #dcdcdc;
+}
+.foot i {
+    float: left;
+   margin-left: 37px; 
+   margin-top: 7px;
+}
+
+.car_img:hover div {
+    color: #47c9af;
+    font-weight: bold;
+}
+.main div:hover span {
+    color: #47c9af;
+    font-weight: bold;
+}
+.foot i:hover {
+    color: #47c9af;
+    cursor: pointer;
+}
